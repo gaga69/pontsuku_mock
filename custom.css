@@ -1,11 +1,22 @@
+html, body {
+    height: 100%;
+}
 
 .header-nav {
+    box-sizing:  border-box;
+    height: 10%;
     padding: 30px;
 }
 
 
 .main-content {
+    box-sizing: border-box;
+    height: 80%;
     padding-bottom: 40px;
+}
+
+.form-colums {
+   height: 300px; 
 }
 
 .footer-nav {
@@ -13,6 +24,8 @@
 }
 
 .footer {
+    box-sizing: border-box;
+    height: 10%;
     padding: 15px 0;
 }
 
