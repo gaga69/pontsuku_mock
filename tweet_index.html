@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./custom.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container header">
+        <nav class="level navbar is-fixed-top">
+            <p class="level-item has-text-centered">
+                <img src="https://bulma.io/images/bulma-type.png" alt="" style="height: 30px;">
+            </p>
+            <p class="level-item has-text-centered has-text-weight-bold">
+                <a class="link is-info">本をさがす</a>
+            </p>
+            <p class="level-item has-text-centered has-text-weight-bold">
+                <a class="link is-info">本の管理</a>
+            </p>
+            <p class="level-item has-text-centered has-text-weight-bold">
+                <a class="link is-info">図書館をさがす</a>
+            </p>
+            <p class="level-item has-text-centered has-text-weight-bold">
+                <a class="link is-info">アカウントを変更する</a>
+            </p>
+            <p class="level-item has-text-centered has-text-weight-bold">
+                <a class="link is-info">Log out</a>
+            </p>
+        </nav>
+    </div>
+    <div class="columns main-container">
+        <div class="column is-3">
+            <aside class="menu">
+                <p class="menu-label is-size-6 has-text-primary has-text-weight-bold">
+                    Userのページ
+                </p>
+                <ul class="menu-list box">
+                    <li><a>本の感想をつぶやく</a></li>
+                    <li><a>本の感想一覧</a></li>
+                </ul>
+                <p class="menu-label is-size-6 has-text-primary has-text-weight-bold">
+                    本の管理
+                </p>
+                <ul class="menu-list box">
+                    <li><a>読んでいる本</a></li>
+                    <li>
+                        <a class="is-active">読んだ本</a>
+                    </li>
+                    <li><a>読みたい本</a></li>
+                    <li><a>予約した本</a></li>
+                </ul>
+                <p class="menu-label is-size-6 has-text-primary has-text-weight-bold">
+                    my図書館
+                </p>
+                <ul class="menu-list box">
+                    <li><a>図書館①</a></li>
+                    <li><a>図書館②</a></li>
+                    <li><a>図書館③</a></li>
+                </ul>
+                <p class="menu-label is-size-6 has-text-primary has-text-weight-bold">
+                    フォロー
+                </p>
+                <ul class="menu-list box">
+                    <li><a>ユーザ①</a></li>
+                    <li><a>ユーザ②</a></li>
+                    <li><a>ユーザ③</a></li>
+                </ul>
+                <p class="menu-label is-size-6 has-text-primary has-text-weight-bold">
+                    フォロワー
+                </p>
+                <ul class="menu-list box">
+                    <li><a>ユーザ①</a></li>
+                    <li><a>ユーザ②</a></li>
+                    <li><a>ユーザ③</a></li>
+                </ul>
+            </aside>
+        </div>
+        <div class="column is-8 tweet-container">
+            <h1 class="is-size-4 has-text-primary has-text-weight-semibold">本の感想一覧</h1>
+
+            <article class="box media tweet-box">
+                <div class="media-content">
+                    <div class="level">
+                        <div class="level-left">
+                            <a class="level-item is-size-4">user name</a>
+                        </div>
+                        <div class="level-right">
+                            post date
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                            pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                            facilisis.
+                        </p>
+                    </div>
+                    <nav class="level is-mobile">
+                        <div class="level-right">
+                            <a class="level-item">
+                                <span class="icon"><i class="far fas fa-lg fa-edit"></i></span>
+                            </a>
+                            <a class="level-item">
+                                <span class="icon"><i class="far fas fa-lg fa-trash-alt"></i></span>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </article>
+            <article class="box media">
+                <div class="media-content">
+                    <div class="level">
+                        <div class="level-left">
+                            <a class="level-item is-size-4">user name</a>
+                        </div>
+                        <div class="level-right">
+                            post date
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                            pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                            facilisis.
+                        </p>
+                    </div>
+                    <nav class="level is-mobile">
+                        <div class="level-right">
+                            <a class="level-item">
+                                <span class="icon"><i class="far fas fa-lg fa-edit"></i></span>
+                            </a>
+                            <a class="level-item">
+                                <span class="icon"><i class="far fas fa-lg fa-trash-alt"></i></span>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </article>
+            <section>
+                <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+                    <a class="pagination-previous">Previous</a>
+                    <a class="pagination-next">Next page</a>
+                    <ul class="pagination-list">
+                        <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+                        <li><span class="pagination-ellipsis">&hellip;</span></li>
+                        <li><a class="pagination-link" aria-label="Goto page 45">45</a></li>
+                        <li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a></li>
+                        <li><a class="pagination-link" aria-label="Goto page 47">47</a></li>
+                        <li><span class="pagination-ellipsis">&hellip;</span></li>
+                        <li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+        </div>
+    </div>
+    </div>
+    <section class="footer">
+        </div>
+        <footer>
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-menu footer-nav">
+                    <div class="navbar-end">
+                        <a class="navbar-item">
+                            Contact
+                        </a>
+                        <a class="navbar-item">
+                            退会する
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </footer>
+    </section>
+</body>
+
+</html>
