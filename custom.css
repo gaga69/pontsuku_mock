@@ -41,3 +41,11 @@ body#top-page {
 .tweet-container {
     margin-left: 80px;
 }
+
+.tweet-form {
+    margin: 20px 0px;
+}
+
+.post-button {
+    text-align: right;
+}
