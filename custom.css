@@ -12,6 +12,10 @@ body#top-page {
     padding: 30px;
 }
 
+.header-nav {
+    background-color: rgb(240, 191, 227);
+}
+
 
 .main-content {
     box-sizing: border-box;
